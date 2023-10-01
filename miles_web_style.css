@@ -17,7 +17,7 @@ body {
 }
 
 .miles__web__logo {
-    width: 75%;
+    width: 72%;
 }
 
 .header__tabs__button__and__contact__container {
@@ -81,7 +81,7 @@ body {
     position: absolute;
     background-color : #1568c9;
     width: 100%;
-    height: 70%;
+    height: 73%;
     z-index: -3;
 }
 
@@ -142,6 +142,7 @@ body {
 }
 
 .intro__small__text__actual__1 {
+    display: flex;
     font-size: 20px;
     font-weight: 600;
 }
@@ -150,4 +151,105 @@ body {
     font-size: 15px;
     font-weight: 100;
 }
-/* stopped styling the intro section button */
+
+.introduction__section__text__div__5 {
+    margin-top: 55px;
+}
+
+.introduction__section__button {
+    font-family: "Open Sans", Arial;
+    font-size: 20px;
+    font-weight: 500;
+    color: #002d69;
+    padding: 18px 60.5px 20px 60.5px;
+    background-color: #1dffff;
+    border: none;
+    border-radius: 10px;
+    animation: 1s button;
+    animation-delay: 0.5s;
+}
+
+.introduction__section__button:hover {
+    border: 1px solid #1dffff;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.introduction__section__text__div__6 {
+    margin-top: 16px;
+    margin-left: 12px;
+}
+
+.intro__most__small__text {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.money__back {
+    text-decoration: underline dotted 0.5px;
+}
+
+.introduction__section__image {
+    margin-top: 88px;
+    margin-right: 35px;
+    width: 70%;
+}
+
+.introduction__section__actual__big__image {
+    width: 85%;
+}
+
+.planning__section {
+    margin: 20px 10%;
+    display: flex;
+    gap: 20px;
+}
+
+.hosting__card {
+    align-items: center;
+    margin: 100px 0 0 0;
+    border: none;
+    border-radius: 10px;
+    width: 370px;
+    height: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.hosting__image{
+    margin: 15px 0 5px 150px;
+}
+
+.hosting__heading {
+    margin: 5px 0 3px 115px;
+    font-size: 18px;
+    padding: 0 2%;
+}
+
+#wphostingheading {
+    margin: 5px 0 3px 90px;
+}
+
+.hosting__paragraph {
+    font-size: 15px;
+    color: #808080;
+    text-align: center;
+    margin: 0 0 0 0;
+}
+
+.hosting__button {
+    margin: 0 0 5px 60px;
+    font-size: 17px;
+    background-color: #002d69;
+    color: #fff;
+    font-weight: 300;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hosting__button:hover {
+    border: 0.5px solid #002d69;
+    margin-top: -0.5px;
+    margin-bottom: -0.5px;
+    margin-right: -0.5px;
+}
