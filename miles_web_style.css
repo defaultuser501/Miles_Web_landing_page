@@ -253,3 +253,115 @@ body {
     margin-bottom: -0.5px;
     margin-right: -0.5px;
 }
+
+.plan__choosing__section {
+    width: 100%;
+    height: 90%;
+}
+
+.plan__choosing__heading {
+    margin: 110px 0 20px 400px;
+    font-size: 27px;
+    font-weight: 300;
+    color: #494747;
+    font-family : "open sans", Arial;
+    line-height : 1.5;
+}
+
+.plan__choosing__card__container {
+    display: flex;
+    gap: 10px;
+    margin: 30px 0 0 7%;
+}
+
+.plan__choosing__card {
+    /* position: absolute; */
+    margin: 30px 0 0 0;
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(#a1dbf4,#FFF);
+    border-radius: 13px;
+    align-items: center;
+}
+
+.plan__choosing__card__details {
+    /* position: 'relative'; */
+    background-color: #fff;
+    margin: 25px 0 0 1px;
+    height: 200px;
+    width: 297px;
+    border-radius: 13px;
+    padding: 15px 0 15px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+} 
+
+.plan__choosing__card__heading__ign {
+    margin: 20px 0 0px 40%;
+}
+
+.plan__choosing__card__heading__el {
+    margin: 20px 0 10px 42%;
+}
+
+.plan__choosing__card__heading__st {
+    margin: 20px 0 10px 40%;
+}
+
+.plan__choosing__card__heading__alp {
+    margin: 20px 0 10px 30%;
+}
+
+.plan__choosing__card__heading__text {
+    color: #395571;
+    font-size: large;
+}
+
+.discount {
+    margin: 0 36% 10px 36%;
+    border: 1px solid #ffecec;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #ffecec;
+    color: #f44860;
+}
+
+.plan__price {
+    display: flex;
+    margin: 10px 0 10px 35%;
+    font-size: 30px;
+}
+
+.mo {
+    margin: 21px 0 0 5px;
+    color: #808080;
+}
+
+#prm {
+    font-weight: 100;
+}
+
+.plan__price__detail {
+    margin: 5px 0 5px 16%;
+    color: #f86d20;
+    font-size: medium;
+}
+
+.plan__add__button__container {
+    margin: 20px 0 20px 25%;
+}
+
+.plan__add__button {
+    padding: 10px 30px 10px 30px;
+    font-size: large;
+    background-color: #1568c9;
+    color: #FFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.plan__add__button:hover {
+    border: 0.5px solid #002d69;
+    margin-top: -0.5px;
+    margin-bottom: -0.5px;
+    margin-right: -0.5px;
+}
