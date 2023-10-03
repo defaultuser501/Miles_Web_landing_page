@@ -284,6 +284,10 @@ body {
     align-items: center;
 }
 
+.plan__choosing__card:hover {
+    background-image: linear-gradient(#a1dbf4, #fcf92e);
+}
+
 .plan__choosing__card__details {
     /* position: 'relative'; */
     background-color: #fff;
@@ -380,6 +384,10 @@ body {
     background-color: #e7f7ff;
     padding: 15px 20px 20px 25px;
     margin: 20px 0 0 19%;
+}
+
+.plan__features:hover{
+    background-image: linear-gradient(#a1dbf4, #fcf92e);
 }
 
 .plan__features__text {
