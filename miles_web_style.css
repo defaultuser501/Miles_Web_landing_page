@@ -398,3 +398,66 @@ body {
 .plan__features__text:hover {
     color: #f44860;
 }
+
+.unique__section {
+    position: absolute;
+    margin: 30px 0 30px 0;
+    height: 90%;
+    width: 100%;
+    background-color: #1568c9;
+}
+
+.unique__section__heading {
+    color: #fff;
+    margin: 40px 0;
+    text-align: center;
+    gap: 10px;
+}
+
+.unique__section__heading__text {
+    font-size: 40px;
+    margin: 0 0 10px -5px;
+}
+
+.unique__section__heading__para {
+    font-size: large;
+    margin: 0 0 0 -5px;
+}
+
+.unique__section__content__container {
+    display: flex;
+    margin: 20px 100px;
+}
+
+.unique__section__images {
+    align-items: center;
+}
+
+.unique__section__small__images {
+    height: 50px;
+    width: 400px;
+    display: flex;
+    padding: 25px 30px 5px 40px;
+    background-color: #1d77e0;
+    border: none;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.unique__small__image {
+    height: 50%;
+}
+
+.unique__small__text {
+    text-decoration: none;
+    font-size: large;
+    color: #fff;
+    font-weight: 600;
+}
+
+.unique__v__l {
+    margin: -15px 0 0 0;
+    line-height: 50px;
+    color: #002d69;
+    font-weight: 30;
+}
