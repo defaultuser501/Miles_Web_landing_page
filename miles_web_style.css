@@ -401,7 +401,7 @@ body {
 
 .unique__section {
     position: absolute;
-    margin: 30px 0 30px 0;
+    margin: 100px 0 30px 0;
     height: 90%;
     width: 100%;
     background-color: #1568c9;
@@ -426,7 +426,7 @@ body {
 
 .unique__section__content__container {
     display: flex;
-    margin: 20px 100px;
+    margin: 0 100px;
 }
 
 .unique__section__images {
@@ -460,4 +460,20 @@ body {
     line-height: 50px;
     color: #002d69;
     font-weight: 30;
+}
+
+.unique__section__description {
+    margin: -20px 0 30px 150px;
+    color: #fff;
+    text-align: justify;
+}
+
+.unique__description {
+    margin: 20px 0 30px 0;
+}
+
+.unique__description__paragraph {
+    font-size:15px;
+    margin: 20px 0 0 0;
+    line-height: 25px;
 }
