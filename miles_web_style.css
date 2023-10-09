@@ -515,3 +515,11 @@ body {
     margin: 0 -150px 0 80px;
     border-radius: 15px;
 }
+
+.get__started__container {
+    display: flex;
+}
+
+.get__started__image__container {
+    margin:120px 0 30px 10%;
+}
