@@ -518,8 +518,66 @@ body {
 
 .get__started__container {
     display: flex;
+    margin:120px 0 0 10%;
+    gap: 100px;
 }
 
-.get__started__image__container {
-    margin:120px 0 30px 10%;
+.get__started__text__container {
+    margin: 8% 0 0 0;
+}
+
+.get__started__heading {
+    margin: 0 0 30px 25px;
+}
+
+.get__started__heading__text {
+    font-size: 35px;
+    color: #363636;
+}
+
+.get__started__para {
+    margin: 6px 0 0 0;
+    font-size: large;
+    color: #808080;
+}
+
+.get__started__contact__border {
+    position: absolute;
+    padding: 50px 180px 15px 470px;
+    margin: -10px -10px 0 -10px;
+    border: 0.5px solid #67c4d8;
+}
+
+.get__started__contact__cotainer {
+    margin: 50px 0 0 26px;
+}
+
+.get__started__contact {
+    background-color: #ddf9ff;
+    padding: 15px 120px 15px 55px;
+
+}
+
+.get__started__contact__number {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    color: green;
+    margin: 0 25px 0 0;
+}
+
+.get__started__contact__number:hover {
+    cursor: pointer;
+}
+
+.get__started__contact__text {
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 600;
+    color: #064291;
+    margin: 0 0 0 25px;
+}
+
+.get__started__contact__text:hover {
+    cursor: pointer;
 }
