@@ -581,3 +581,83 @@ body {
 .get__started__contact__text:hover {
     cursor: pointer;
 }
+
+.footer__container {
+    height: 100%;
+    width: 100%;
+    margin: 0 0 0 0;
+}
+
+.footer__background__container {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    margin: 0 0 0 10%;
+    background-color: #1568c9;
+    z-index: -5;
+}
+
+.footer__content__background__container {
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    margin: 20px 0 0 0;
+    background-color: #011e44;
+    z-index: -1;
+}
+
+.footer__newsletter {
+    display: flex;
+    padding: 5% 10% 0 5%;
+    gap: 0;
+}
+
+.footer__newsletter__text {
+    color: #fff;
+    width: 58%;
+}
+
+.footer__newsletter__para {
+    width: 80%;
+    font-size: small;
+    margin: 20px 0 0 0;
+}
+
+.footer__input__container {
+    margin: 35px 0 0 -40px;
+}
+
+.footer__input {
+    padding: 17px 230px 17px 10px;
+    border: 1px solid #fff;
+    background-color: #011e44;
+    border-radius: 10px;
+    font-size: small;
+    color: #1d77e0;
+}
+
+.footer__button {
+    padding: 17px 30px 17px 30px;
+    margin: 0 0 0 15px;
+    border-radius: 10px;
+    background-color: #1dffff;
+    font-weight: 700;
+    color: #011e44;
+    border: none;
+}
+
+.footer__button:hover {
+    background-color: #1568c9;
+    color: #fff;
+    border: none;
+}
+
+.footer__hr {
+    margin: 25px 15% 25px 10%;
+    color: #064291;
+}
+
+.footer__image {
+    width: 30%;
+    margin: 0 0 0 35%;
+}
